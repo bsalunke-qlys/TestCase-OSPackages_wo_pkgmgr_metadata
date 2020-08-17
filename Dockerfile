@@ -1,3 +1,4 @@
 FROM centos 
-EXPOSE 8080
 RUN rm -rf /var/lib/rpm/*
+RUN rm -rf /bin/bash
+RUN rm -rf /bin/sh
